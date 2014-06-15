@@ -110,11 +110,6 @@ void setRepeats(byte repeats);
 
 Sending the data
 ----------------
-To transmit the humidity and temperature use the `send` function:
-
-```
-void send(byte humidity, double temperature);
-```
 
 By default, the data packet will be sent 4 times. This can be changed using the `setRepeats` function:
 

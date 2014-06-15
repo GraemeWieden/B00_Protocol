@@ -2,7 +2,7 @@ B00 Protocol Sender Library for Arduino
 =======================================
 
 For the latest version, visit the project home at :
-https ://github.com/graemewieden/B00_Protocol
+https://github.com/graemewieden/B00_Protocol
 
 Released under the MIT license.
 See license.md for more information.

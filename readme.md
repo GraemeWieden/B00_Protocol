@@ -136,4 +136,4 @@ void sendB05(byte b1, byte b2, byte b3, byte b4);
 Examples
 --------
 For a complete example of how to send and receive / decode the B00 packet, see the examples here:
-https://github.com/GraemeWieden/B00_Protocol/examples
+https://github.com/GraemeWieden/B00_Protocol/tree/master/examples

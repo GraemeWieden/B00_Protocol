@@ -3,7 +3,7 @@
 	======================================
 
 	For the latest version, visit the project home at :
-	https ://github.com/graemewieden/B00_Protocol
+	https://github.com/graemewieden/B00_Protocol
 
 	Released under the MIT license.
 	See license.md for more information.
@@ -50,7 +50,6 @@ void setup()
 
 void loop()
 {
-
   // double values can range from -3.4028235E+38 to 3.4028235E+38
   // but only have a maximum of 6 to 7 decimal digits of precision
 

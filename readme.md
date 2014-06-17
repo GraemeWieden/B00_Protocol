@@ -132,3 +132,11 @@ Examples
 --------
 For a complete example of how to send and receive / decode the B00 packet, see the examples here:
 https://github.com/GraemeWieden/B00_Protocol/tree/master/examples
+
+The examples will be available through the 'Examples' option in the File menu of the Arduino IDE when the library is installed.
+
+The following example sketches are provided
+
+- Send_B00: Continuously ends sample data in all supported content types
+- Receive_B00: Decodes and displays B00 code words as they're received using a modified RCSwitch Arduino library that supports 64 bit packets
+- Reveive_B00_minimal: Decodes and displays B00 code words as they're received requiring no additional libraries.

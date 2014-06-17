@@ -1,6 +1,24 @@
-// Important note:
-// The B00 protocol uses a 50 bit packet so it needs the modified RCSwitch library that
-// supports up to 64 bits rather than the standard version which is limited to 32 bits.
+/*
+  B00 Protocol Receiver Sketch
+  ============================
+ 
+  For the latest version, visit the project home at :
+  https://github.com/graemewieden/B00_Protocol
+ 
+  Released under the MIT license.
+  See license.md for more information.
+ 
+  The B00 protocol uses a 50 bit code word. 
+  This example sketch makes use of the RCSwitch library which, by default, only supports
+  up to 32 bit code words. 
+  When building this sketch, be sure to use the modified version which supports up to 64 bits.
+  You can fine a version of it here:
+  https://github.com/GraemeWieden/RCSwitch_64
+
+  Alternatively, you can use the Receive_B00_minimal sketch which is available in the
+  examples area of the project home for this library. The minimal version does not make
+  use of the RCSwitch library, instead using it's own lightweight, interrupt based receiver.
+*/
 
 #include <RCSwitch.h>
 

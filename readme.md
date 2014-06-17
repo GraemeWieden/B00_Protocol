@@ -137,6 +137,6 @@ The examples will be available through the 'Examples' option in the File menu of
 
 The following example sketches are provided
 
-- Send_B00: Continuously ends sample data in all supported content types
-- Receive_B00: Decodes and displays B00 code words as they're received using a modified RCSwitch Arduino library that supports 64 bit packets
+- Send_B00: Continuously sends sample data in all supported content types.
+- Receive_B00: Decodes and displays B00 code words as they're received using a modified RCSwitch Arduino library that supports 64 bit packets.
 - Reveive_B00_minimal: Decodes and displays B00 code words as they're received requiring no additional libraries.

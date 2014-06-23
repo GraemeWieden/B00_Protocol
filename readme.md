@@ -1,8 +1,9 @@
 B00 Protocol Sender Library for Arduino
 =======================================
 
-For the latest version, visit the project home at :
-https://github.com/graemewieden/B00_Protocol
+For the latest version, visit the project home at:
+
+[https://github.com/graemewieden/B00_Protocol](https://github.com/graemewieden/B00_Protocol)
 
 Released under the MIT license.
 See license.md for more information.
@@ -70,7 +71,8 @@ This produces pulse durations of
 The B00 RF protocol mirrors the system defined as 'Protocol 1' in the Arduino RCSwitch library, however the base version of the RCSwitch library can't be used as it only supports up to 32 bit packets.
 
 If you intend using RCSwitch to decode the B00 packet, be sure to use the modified version which supports up to 64 bit packets. It can be found here:
-https://github.com/GraemeWieden/RCSwitch_64
+
+[https://github.com/GraemeWieden/RCSwitch_64](https://github.com/GraemeWieden/RCSwitch_64)
 
 
 Installation
@@ -131,7 +133,8 @@ void sendB05(byte b1, byte b2, byte b3, byte b4);
 Examples
 --------
 For a complete example of how to send and receive / decode the B00 packet, see the examples here:
-https://github.com/GraemeWieden/B00_Protocol/tree/master/examples
+
+[https://github.com/GraemeWieden/B00_Protocol/tree/master/examples](https://github.com/GraemeWieden/B00_Protocol/tree/master/examples)
 
 The examples will be available through the 'Examples' option in the File menu of the Arduino IDE when the library is installed.
 

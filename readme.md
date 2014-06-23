@@ -8,7 +8,7 @@ Released under the MIT license.
 See license.md for more information.
 
 
-The B00 protocol is a custom, general purpose protocol for sending sensor data of various data types via RF between Arduinos.
+The B00 protocol is a custom, general purpose protocol for sending sensor data of various data types via RF between Arduinos. It can also be used to send sensor data to a Ninja Block using the custom Ninja Block Arduino firmware.
 
 It's called B00 as it says Boo! to announce itself
 
@@ -140,3 +140,11 @@ The following example sketches are provided
 - Send_B00: Continuously sends sample data in all supported content types.
 - Receive_B00: Decodes and displays B00 code words as they're received using a modified RCSwitch Arduino library that supports 64 bit packets.
 - Reveive_B00_minimal: Decodes and displays B00 code words as they're received requiring no additional libraries.
+
+Using B00 with a Ninja Block
+----------------------------
+To receive the B00 protocol with a Ninja Block, a custom Arduino firmware is required. You'll find a modified version of the Ninja Blocks Arduino firmware based on the 'master' branch here:
+
+[https://github.com/GraemeWieden/nb_arduino_master/tree/B00](https://github.com/GraemeWieden/nb_arduino_master/tree/B00)
+
+Unfortunately, as the original Ninja Block master branch used up almost the entire Arduino memory space, this branch sacrifices the existing code that reads the hardware ports to free up a little memory. You may wish to cull an unnecessary RF protocol instead.
